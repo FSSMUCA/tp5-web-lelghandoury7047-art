@@ -81,7 +81,7 @@ Demandez ensuite un mot de passe utilisateur via prompt() puis affichez :<br>
 **Exercice 8 — Fonction : calcul d’un total avec remise**
 
 Créer une fonction totalAvecRemise(total, remise) qui retourne :<br>
-totalFinal = total - (total * remise / 100)<br>
+totalFinal = total - (total \* remise / 100)<br>
 Demandez à l’utilisateur :<br>
 un total HT<br>
 une remise en %<br>
@@ -91,9 +91,9 @@ Puis affichez le total final.<br>
 
 Créer une fonction récursive factorielle(n) :<br>
 Si n = 0, retourner 1<br>
-Sinon retourner n * factorielle(n - 1)<br>
+Sinon retourner n \* factorielle(n - 1)<br>
 Exemple attendu :<br>
-factorielle(5)  // 120<br>
+factorielle(5) // 120<br>
 
 **Exercice 10 — Comparaison itératif vs récursif**
 
@@ -102,7 +102,9 @@ Version 1 : boucle<br>
 sommeIterative(n)<br>
 Version 2 : récursion<br>
 sommeRecursive(n)<br>
+
 ## Analyse demandée :<br>
+
 1 - Quel code est le plus lisible ?<br>
 2 - Quel code est le plus performant ?<br>
 3 - La récursion peut-elle poser des problèmes ? Pourquoi ?<br>
